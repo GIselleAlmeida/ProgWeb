@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+        <meta charset = "UTF-8" / >
+    <title> Exercicio 2 </title>
+<style type="text/css">
+body {
+
+
+background-image: url(fundoback.png);
+background-size: 30px;
+background-repeat:repeat-x;
+}
+</style>
+  </head>
+
+<body>
+      <h1> Instituto de Computação</h1>
+      
+
+      <p> O instituto de Computação é o mais novo <br />
+instituto da UFAM, tendo sido formado a <br />
+partir do antigo Departamento de Ciência da <br />
+Computação (DCC). </p>
+</body>
+</html>
