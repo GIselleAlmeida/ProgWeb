@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset = "UTF-8" />
+ <title>Trabalho 5</title>
+ <style type="text/css">
+    span{position:relative;font-size: 2em}
+    .super{position:relative; top:-80px;right: -10px}
+    .sub{position: relative;bottom: 20px;}
+    p{
+    	font-size: 1.3em;
+    }
+img {
+border: 4px ;
+background: lightgray;
+margin:4px 6px;
+}
+</style>
+ <head>
+ <body>
+ <img src="bey.jpg" width="150" height="150" alt="CSS3">
+ <span class="super"><b>Beyonce Giselle</b></span>
+ <p>
+ Beyoncé Giselle Knowles Carter4 (Houston, 4 de setembro de 1981),mais conhecida simplesmente como Beyoncé, é uma cantora, compositora, atriz, dançarina, <br/>coreógrafa, arranjadora vocal, produtora, diretora de vídeo e empresária americana nascida e criada em Houston, no Texas.
+ </p>
+
+
+ <script type="text/javascript">
+ function curtir (){
+  var like = document.getElementById("botaolike");
+  var l = like.innerHTML;
+  l++;
+  like.innerHTML = l;
+ }
+ </script>
+ <table border = "0">
+ <tr>
+ <td>
+ <div id="botaolike"> 0 </div> people like this 
+ <input type="submit" id="botaolike" value="Like" onclick="curtir()" >
+ </td>
+</tr>
+<tr>
+<td> <br/>Comentários<br/><br/><textarea name="mensagem" rows="2"cols"90"></textarea>
+ <span class="sub"><input type="submit"name="comentario"id="submit"value="comentar"/></td></span>
+</table>
+
+ </body>
+ </html>
